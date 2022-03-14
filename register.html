@@ -3,19 +3,16 @@
         <link rel="stylesheet" href="css/user-ui-acc-signup.css">
     </head>
     <body>
-
-        <div>
-            <?php
-            if(isset($_POST['signu-btn'])) {
-                echo 'User Registered'
-            }
-            ?>
-        </div>
-
         <div class="wrapper">
-        <div class="back-to-home">
-            <h2><a href="index.html">⬅ Back to JForum</a></h2>
-        </div>
+            <div class="navigation-bar">
+        
+                <a href="/index.html" class="active">Home</a>
+                <a href="/posts.html">Latest Posts</a>
+                <a href="/upgrade-account.html">Upgrade</a>
+                <a class="user-ui-log" href="/login.html">Login</a>
+                <a class="user-ui-reg" href="/register.html">Register</a>
+                </div>
+            </div>
         <div class="registerui">
             <img src="https://twirpz.files.wordpress.com/2015/06/twitter-avi-gender-balanced-figure.png" class="avatar">
             <h1>Register an account</h1>
@@ -35,4 +32,9 @@
         </div>
     </div>
     </body>
+    <footer>
+        <span>
+            &copy; &nbsp; Jay Forums | All Rights Reserved
+        </span>
+    </footer>
 </html>

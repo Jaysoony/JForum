@@ -1,5 +1,6 @@
 <body>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/f0f3.js" crossorigin="anonymous"></script>
     <div class="bg">
     <div class="top-bar">
         <a href="/index.html">
@@ -10,9 +11,9 @@
     </div>
     <div class="navigation-bar">
 
-        <a class="active" href="#">Home</a>
-        <a href="#">Latest Posts</a>
-        <a href="#">Upgrade</a>
+        <a href="/index.html" class="active">Home</a>
+        <a href="/posts.html">Latest Posts</a>
+        <a href="/upgrade-account.html">Upgrade</a>
         <a class="user-ui-log" href="/login.html">Login</a>
         <a class="user-ui-reg" href="/register.html">Register</a>
         </div>
@@ -26,63 +27,97 @@
                 <option value="descriptions">Descriptions</option>
             </select>
             <input type="text" name="q" id="" placeholder="Search...">
-            <button><i class="fa fa-searchbox"></i></button>
         </div>
     </div>
-    <div class="main">
-        <ol>
-        </ol>
+    <div class="banneralert">
+        <h2> 🔔 Notice: This Forum is undergoing development. Expect issues across the board.</h2>
     </div>
-    <script src="data/data.js"></script>
-    <script>
-        console.log(threads);
-        var container = document.querySelector('ol');
-        for (let thread of threads) {
-            var html = `
-            <li class="row">
-                <a href="/thread.html?${thread.id}">
-                    <h4 class="title">
-                        ${thread.title}
-                    </h4>
-                    <div class="bottom">
-                        <p class="timestamp">
-                            ${new Date(thread.date).toLocaleString()}
-                        </p>
-                        <p class="comment-count">
-                            ${thread.comments.length} comments
-                        </p>
-                    </div>
-                </a>
-            </li>
-            `
-            container.insertAdjacentHTML('beforeend', html);
-        }
-    </script>
-    <script>
-        function addThread(thread) {
-            var threadHtml = `
-                <div class="thread">
-                    <div class="top-thread">
-                        <p class="user">
-                            ${thread.author}
-                        </p>
-                        <p class="thread-ts">
-                            ${new Date(thread.date).toLocaleString()}
-                        </p>
-                    </div>
-                    <div class="thread-content">
-                        ${thread.content}
-                    </div>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>General Information</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-car center"></i>
                 </div>
-            `
-            threads.insertAdjacentHTML('beforeend', threadHtml);
-        }
-    </script>
-<hr>
-    <div class="forum-info">
-        <div class="chart">
-            JForum 2022
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Description Title 1</a></h4>
+                    <p>Description Example 1</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">JustAUser</a> 
+                    <br>on <small>12 Dec 2021</small>
+                </div>
+            </div>
         </div>
-        <div>
+        <!--More-->
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Notable Topics</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-car center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Description Title 2</a></h4>
+                    <p>Description Example 2</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">JustAUser</a> 
+                    <br>on <small>12 Dec 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-car center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Description Title 3</a></h4>
+                    <p>Description Example 3</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">JustAUser</a> 
+                    <br>on <small>12 Dec 2021</small>
+                </div>
+            </div>
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Other Information</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Description Title 4</a></h4>
+                    <p>Description Example 4</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">JustAUser</a> 
+                    <br>on <small>12 Dec 2021</small>
+                </div>
+            </div>
+<hr>
     </div>
+    <footer>
+        <span>
+            &copy; &nbsp; Jay Forums | All Rights Reserved
+        </span>
+    </footer>
 </body>

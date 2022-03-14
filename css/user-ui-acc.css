@@ -43,6 +43,64 @@ body {
       100%{background-position:0% 82%}
   }
 
+  .top-bar {
+    background: transparent;
+    padding: 2px 4px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.navigation-bar {
+    background-color: rgb(48, 49, 49);
+    overflow: hidden;
+}
+.navigation-bar a {
+    float: left;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navigation-bar a:hover {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
+.navigation-bar a.active {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
+.navigation-bar a.user-ui-log {
+    right: 100%;
+    float: right;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navigation-bar a.user-ui-reg {
+    right: 100%;
+    float: right;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navigation-bar a:hover.user-ui-log {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
+.navigation-bar a:hover.user-ui-reg {
+    background-color:#81038d;
+    color: rgb(255, 255, 255);
+}
+
+
 .loginui {
     text-align: center;
     width: 320px;
@@ -129,4 +187,13 @@ h2 {
 
 .loginui a:hover {
     color: rgb(231, 93, 93);
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #8b0697;
+    display: block;
 }
