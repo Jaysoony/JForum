@@ -1,0 +1,68 @@
+<body>
+    <link rel="stylesheet" href="css/main.css">
+    <div class="top-bar">
+        <a href="/index.html">
+        <h1>
+            JForum - Communication & Resources
+        </h1>
+        
+    </a>
+    </div>
+    <div class="navigation-bar">
+        <a class="active" href="#">Home</a>
+        <a href="#">Latest News</a>
+        <a href="#">Upgrade</a>
+        <a class="user-ui-log" href="/login.html">Login</a>
+        <a class="user-ui-reg" href="/register.html">Register</a>
+        </div>
+    </div>
+    <div class="main">
+        <ol>
+        </ol>
+    </div>
+    <script src="data/data.js"></script>
+    <script>
+        console.log(threads);
+        var container = document.querySelector('ol');
+        for (let thread of threads) {
+            var html = `
+            <li class="row">
+                <a href="/thread.html?${thread.id}">
+                    <h4 class="title">
+                        ${thread.title}
+                    </h4>
+                    <div class="bottom">
+                        <p class="timestamp">
+                            ${new Date(thread.date).toLocaleString()}
+                        </p>
+                        <p class="comment-count">
+                            ${thread.comments.length} comments
+                        </p>
+                    </div>
+                </a>
+            </li>
+            `
+            container.insertAdjacentHTML('beforeend', html);
+        }
+    </script>
+    <script>
+        function addThread(thread) {
+            var threadHtml = `
+                <div class="thread">
+                    <div class="top-thread">
+                        <p class="user">
+                            ${thread.author}
+                        </p>
+                        <p class="thread-ts">
+                            ${new Date(thread.date).toLocaleString()}
+                        </p>
+                    </div>
+                    <div class="thread-content">
+                        ${thread.content}
+                    </div>
+                </div>
+            `
+            threads.insertAdjacentHTML('beforeend', threadHtml);
+        }
+    </script>
+</body>

@@ -1,0 +1,82 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 10px 60px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h1, h4, ol {
+            margin: 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .top-bar {
+            background-color: rgb(77, 192, 238);
+            padding: 0 40px;
+        }
+        .navigation-bar {
+            background-color: rgb(48, 49, 49);
+            overflow: hidden;
+        }
+        .navigation-bar a {
+            float: left;
+            background-color: rgb(48, 49, 49);
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .navigation-bar a:hover {
+            background-color: #1b58ca;
+            color: rgb(255, 255, 255);
+        }
+        .navigation-bar a.active {
+            background-color:#1b58ca;
+            color: rgb(255, 255, 255);
+        }
+        .navigation-bar a.user-ui-log {
+            right: 100%;
+            float: right;
+            background-color: rgb(48, 49, 49);
+            color: white;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .navigation-bar a.user-ui-reg {
+            right: 100%;
+            float: right;
+            background-color: rgb(48, 49, 49);
+            color: white;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .navigation-bar a:hover.user-ui-log {
+            background-color: #1b58ca;
+            color: rgb(255, 255, 255);
+        }
+        .navigation-bar a:hover.user-ui-reg {
+            background-color:#1b58ca;
+            color: rgb(255, 255, 255);
+        }
+        .main {
+            background-color: #F6F6EF;
+            padding: 10px 15px;
+        }
+        .row {
+            padding: 5px 0;
+        }
+        .bottom {
+            display: flex;
+            color: grey;
+            font-size: 12px;
+        }
+        .timestamp {
+            padding-right: 10px;
+        }
