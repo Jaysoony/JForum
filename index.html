@@ -1,19 +1,32 @@
 <body>
     <link rel="stylesheet" href="css/main.css">
+    <div class="bg">
     <div class="top-bar">
         <a href="/index.html">
         <h1>
             JForum - Communication & Resources
         </h1>
-        
     </a>
     </div>
     <div class="navigation-bar">
+
         <a class="active" href="#">Home</a>
-        <a href="#">Latest News</a>
+        <a href="#">Latest Posts</a>
         <a href="#">Upgrade</a>
         <a class="user-ui-log" href="/login.html">Login</a>
         <a class="user-ui-reg" href="/register.html">Register</a>
+        </div>
+    </div>
+
+    <div class="search">
+        <div>
+            <select name="" id="">
+                <option value="everything">Everything</option>
+                <option value="titles">Titles</option>
+                <option value="descriptions">Descriptions</option>
+            </select>
+            <input type="text" name="q" id="" placeholder="Search...">
+            <button><i class="fa fa-searchbox"></i></button>
         </div>
     </div>
     <div class="main">
@@ -65,4 +78,11 @@
             threads.insertAdjacentHTML('beforeend', threadHtml);
         }
     </script>
+<hr>
+    <div class="forum-info">
+        <div class="chart">
+            JForum 2022
+        </div>
+        <div>
+    </div>
 </body>

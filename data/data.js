@@ -26,7 +26,21 @@ var defaultThreads = [
                 content: "Use the add thread button on the main page to add a new thread, clicking on a thread will allow you to reply to the thread"
             }
         ]
-    }
+    },
+    {
+        id: 3,
+        title: "Test",
+        author: "Jay",
+        date: Date.now(),
+        content: "JSKAHDUIASIKHUDIUASKDHAIUKDHAIUKJ",
+        comments: [
+            {
+                author: "Jay",
+                date: Date.now(),
+                content: "Hey there, I'm jay!"
+            }
+        ]
+    },
     
 ]
 var threads = defaultThreads

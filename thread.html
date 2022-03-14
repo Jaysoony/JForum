@@ -1,6 +1,7 @@
 <body>
     <div class="top-bar">
         <a href="/index.html">
+            <link rel="stylesheet" href="css/thread.css">
             <h1>
                 JForum - Communication & Resources
             </h1>
@@ -10,7 +11,7 @@
         <div class="header">
         </div>
         <textarea></textarea>
-        <button>Add thread comment</button>
+        <button class="comment-btn">Add thread comment</button>
         <div class="comments">
         </div>
     </div>
@@ -79,7 +80,7 @@
         }
         a {
             text-decoration: none;
-            color: black;
+            color: rgb(250, 250, 250);
         }
         h1, h4, ol {
             margin: 0;
@@ -96,11 +97,11 @@
             margin: 10px 0;
         }
         .top-bar {
-            background-color: skyblue;
+            background-color: #b504c5;
             padding: 0 40px;
         }
         .main {
-            background-color: #F6F6EF;
+            background-color: rgb(48, 49, 49);
             padding: 10px 40px;
         }
         .comments {
@@ -114,7 +115,7 @@
         }
         .bottom, .top-comment {
             display: flex;
-            color: grey;
+            color: rgb(255, 255, 255);
             font-size: 12px;
         }
         .timestamp {
