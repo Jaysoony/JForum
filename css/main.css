@@ -48,10 +48,11 @@
             text-decoration: none;
         }
         .navigation-bar {
-            border-radius: 5px;
+            border-radius: 0px 0px 5px 5px;
         }
+
         .top-bar {
-            border-radius: 5px;
+            border-radius: 5px 5px 0px 0px;
         }
 
         /* width */
@@ -61,19 +62,19 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: rgb(66, 66, 66);
     border-radius: 50px;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(77, 76, 76);
+    background: linear-gradient(124deg,#1d6ee8, #1d5de8, #dd00f3, #df00f3, #f30065 );
     border-radius: 50px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(95, 90, 90);
+    background: #dd00f3;
   }
 
         .banneralert {
