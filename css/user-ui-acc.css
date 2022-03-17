@@ -4,7 +4,8 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Exo', sans-serif;
-}
+}  
+
 
 .wrapper { 
     height: 100%;
@@ -51,7 +52,7 @@ body {
     text-decoration: none;
 }
 .navigation-bar {
-    background-color: rgb(48, 49, 49);
+    background-color: rgb(48, 49, 49); 
     overflow: hidden;
 }
 .navigation-bar a {
@@ -113,6 +114,7 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    border-radius: 10px;
 }
 
 .avatar {
@@ -190,10 +192,10 @@ h2 {
 }
 
 footer {
-    color: white;
+    color: rgb(255, 255, 255); 
     padding: 10px;
     padding-top: 10px;
     text-align: center;
     background-color: #8b0697;
-    display: block;
+    display: inline-block;
 }
