@@ -1,315 +1,350 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 @import url('https://github.com/VincentGarreau/particles.js/');
+body {
+    font-family: 'Exo', sans-serif;
+    margin: 10px 60px;
+    background-color: rgb(43, 42, 42);
+}
 
-        
-        body  {
-            font-family: 'Exo', sans-serif;
-            margin: 10px 60px;
-            background-color: rgb(43, 42, 42);
+#particles-js {
+    width: 100%;
+    height: 500px;
+    background: transparent;
+    /*background-image: url('');*/
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 0;
+}
 
-        }
-        #particles-js {
-            width: 100%;
-            height: 500px;
-            background: transparent;
-            /*background-image: url('');*/
-            background-size:auto;
-            background-repeat: no-repeat;
-            padding: 0;
-            
-        }
-        a {
-            text-decoration: none;
-            color: rgb(132, 12, 143);
-        }
-        h1, h4, ol {
-            margin: 0;
-        }
-        h1 {
-            color: white;
-            text-shadow: 1px 1px 0 #7a0685, 2px 2px 0 #000000;
-           text-align: center;
-        }
-        p {
-            margin: 5px 0;
-        }
+a {
+    text-decoration: none;
+    color: rgb(132, 12, 143);
+}
 
-        h3 {
-            color: white;
-        }
+h1,
+h4,
+ol {
+    margin: 0;
+}
 
-        .upgrade-content {
-            background-color:#3a393a;
-            text-align: center;
-            border-radius: 10px;
-        }
-        .filter {
-            font-size: 17px;
-            text-decoration: none;
-        }
-        .navigation-bar {
-            border-radius: 0px 0px 5px 5px;
-        }
+h1 {
+    color: white;
+    text-shadow: 1px 1px 0 #7a0685, 2px 2px 0 #000000;
+    text-align: center;
+}
 
-        .top-bar {
-            border-radius: 5px 5px 0px 0px;
-        }
+p {
+    margin: 5px 0;
+}
 
-        /* width */
+h3 {
+    color: white;
+}
+
+.upgrade-content {
+    background-color: #3a393a;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.filter {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.navigation-bar {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.top-bar {
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/* width */
+
 ::-webkit-scrollbar {
     width: 12px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
     background: rgb(66, 66, 66);
     border-radius: 50px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(124deg,#1d6ee8, #1d5de8, #dd00f3, #df00f3, #f30065 );
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(124deg, #1d6ee8, #1d5de8, #dd00f3, #df00f3, #f30065);
     border-radius: 50px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
     background: #dd00f3;
-  }
+}
 
-        .banneralert {
-            padding: 0px;
-            text-align: center;
-            background-color: rgb(228, 82, 82);
-            margin: 1em;
-            color: white;
-            border-radius: 15px;
-        }
-        .container{
-            margin: 20px;
-            padding: 20px;
-            padding-top: 0;
-        }
-        .subforum{
-            margin-top:20px;
-        }
-        
-        .subforum-title{
-            background-color:#b504c5;
-            padding: 5px;
-            border-radius: 5px;
-            margin:4px;
-        }
-        
-        .subforum-row{
-            display: grid;
-            grid-template-columns: 7% 60% 13% 20%;
-        }
-        
-        .subforum-column{
-            padding: 10px;
-            margin:4px;
-            border-radius: 5px;
-            background-color:#262727;
-        }
-        
-        .subforum-description *{
-            margin-block: 0;
-            color: white;
-        }
-        
-        .center{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .subforum-devider{
-            display: none;   
-        }
-        .top-bar {
-            background-color: #b504c5;
-            padding: 0 40px;
-        }
-        .navigation-bar {
-            background-color: rgb(48, 49, 49);
-            overflow: hidden;
-        }
-        .navigation-bar a {
-            float: left;
-            background-color: rgb(48, 49, 49);
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .navigation-bar a:hover {
-            background-color: rgb(74, 77, 77);;
-            color: rgb(255, 255, 255);
-        }
-        .navigation-bar a.active {
-            background-color: #81038d;
-            color: rgb(255, 255, 255);
-        }
-        .navigation-bar a.user-ui-log {
-            right: 100%;
-            float: right;
-            background-color: rgb(48, 49, 49);
-            color: white;
-            text-align: right;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .navigation-bar a.user-ui-reg {
-            right: 100%;
-            float: right;
-            background-color: rgb(48, 49, 49);
-            color: white;
-            text-align: right;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .navigation-bar a:hover.user-ui-log {
-            background-color: #81038d;
-            color: rgb(255, 255, 255);
-        }
-        .navigation-bar a:hover.user-ui-reg {
-            background-color:#81038d;
-            color: rgb(255, 255, 255);
-        }
+.banneralert {
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(228, 82, 82);
+    margin: 1em;
+    color: white;
+    border-radius: 15px;
+}
 
-        .search {
-            border: solid 1px rgb(48, 49, 49);
-            margin-top: 10px;
-            padding: 5px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: center;
-            box-shadow: 1px 2px 3px #81038d;
-        }
+.container {
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+}
 
-        h3 {
-            padding: 5px;
-            text-align: left;
-            margin-top: 5px;
-            margin-right: 5px;
-        }
+.subforum {
+    margin-top: 20px;
+}
 
-        .search select {
-            padding: 10px;
-        }
+.subforum-title {
+    background-color: #b504c5;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
 
-        .search input {
-            padding: 10px;
-        }
-        .search button {
-            padding: 10px;
-            background-color: white;
-            color: #000000;
-        }
-        .search button:hover {
-            background-color: #81038d;
-            color: white;
-            box-shadow: 1px 2px 3px #fff;
-        }
+.subforum-row {
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
 
-        .main {
-            background-color: #F6F6EF;
-            padding: 10px 15px;
-        }
-        .row {
-            padding: 5px 0;
-        }
-        .bottom {
-            display: flex;
-            color: grey;
-            font-size: 12px;
-        }
-        .timestamp {
-            padding-right: 10px;
-        }
-        .forum-info {
-            color: white;
-            padding: 5px;
-        }
+.subforum-column {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #262727;
+}
 
-        b {
-            color: white;
-            text-align: center;
-        }
+.subforum-description * {
+    margin-block: 0;
+    color: white;
+}
 
-        .container {
-            color: white;
-            padding: 10px;
-            padding-top: 10px;
-            text-align: center;
-            background-color: #3a393a;
-            display: block;
-            border-radius: 5px;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        }
-        footer {
-            color: white;
-            padding: 10px;
-            padding-top: 10px;
-            text-align: center;
-            background-color: #8b0697;
-            display: block;
-        }
+.subforum-devider {
+    display: none;
+}
 
-        .table-head {
-            display: flex;
-        }
+.top-bar {
+    background-color: #b504c5;
+    padding: 0 40px;
+}
 
-        .table-head div {
-            padding: 5px;
-            margin: 2px;
-            background-color: transparent;
-            font-weight: bold;
-        }
+.navigation-bar {
+    background-color: rgb(48, 49, 49);
+    overflow: hidden;
+}
 
-        .table-head .status {
-            flex: 5%;
-        }
+.navigation-bar a {
+    float: left;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
 
-        .table-head .subjects {
-            flex: 70%;
-        }
+.navigation-bar a:hover {
+    background-color: rgb(74, 77, 77);
+    ;
+    color: rgb(255, 255, 255);
+}
 
-        .table-head .replies {
-            flex: 10%;
-        }
+.navigation-bar a.active {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
 
-        .table-head .lastestact {
-            flex: 15%;
-        }
+.navigation-bar a.user-ui-log {
+    right: 100%;
+    float: right;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
 
-        .table-row {
-            display: flex;
+.navigation-bar a.user-ui-reg {
+    right: 100%;
+    float: right;
+    background-color: rgb(48, 49, 49);
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
 
-        }
-        .table-row .status, .table-row .subjects, .table-row .replies, .table-row .lastestactivity {
+.navigation-bar a:hover.user-ui-log {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
 
-            padding: 5px;
-            margin: 5px;
-            background-color: rgb(48, 49, 49);
-        }
+.navigation-bar a:hover.user-ui-reg {
+    background-color: #81038d;
+    color: rgb(255, 255, 255);
+}
 
-        .table-row .status {
-            flex: 5%;
-            font-size: 30px;
-            text-align: center;
-        }
+.search {
+    border: solid 1px rgb(48, 49, 49);
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 3px #81038d;
+}
 
-        .table-row .subjects {
-            flex: 70%;
-        }
-        .table-row .replies {
-            flex: 10%;
-        }
-        .table-row .lastestactivity {
-            flex: 15%;
-        }
+h3 {
+    padding: 5px;
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.search select {
+    padding: 10px;
+}
+
+.search input {
+    padding: 10px;
+}
+
+.search button {
+    padding: 10px;
+    background-color: white;
+    color: #000000;
+}
+
+.search button:hover {
+    background-color: #81038d;
+    color: white;
+    box-shadow: 1px 2px 3px #fff;
+}
+
+.main {
+    background-color: #F6F6EF;
+    padding: 10px 15px;
+}
+
+.row {
+    padding: 5px 0;
+}
+
+.bottom {
+    display: flex;
+    color: grey;
+    font-size: 12px;
+}
+
+.timestamp {
+    padding-right: 10px;
+}
+
+.forum-info {
+    color: white;
+    padding: 5px;
+}
+
+b {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #3a393a;
+    display: block;
+    border-radius: 5px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #8b0697;
+    display: block;
+}
+
+.table-head {
+    display: flex;
+}
+
+.table-head div {
+    padding: 5px;
+    margin: 2px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.table-head .status {
+    flex: 5%;
+}
+
+.table-head .subjects {
+    flex: 70%;
+}
+
+.table-head .replies {
+    flex: 10%;
+}
+
+.table-head .lastestact {
+    flex: 15%;
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-row .status,
+.table-row .subjects,
+.table-row .replies,
+.table-row .lastestactivity {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(48, 49, 49);
+}
+
+.table-row .status {
+    flex: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table-row .subjects {
+    flex: 70%;
+}
+
+.table-row .replies {
+    flex: 10%;
+}
+
+.table-row .lastestactivity {
+    flex: 15%;
+}
