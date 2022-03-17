@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 @import url('https://github.com/VincentGarreau/particles.js/');
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Exo', sans-serif;
     margin: 10px 60px;
     background-color: rgb(43, 42, 42);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #particles-js {
@@ -289,6 +296,7 @@ footer {
     text-align: center;
     background-color: #8b0697;
     display: block;
+    margin-top: auto;
 }
 
 .table-head {
