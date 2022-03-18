@@ -11,6 +11,8 @@ The images below are a preview ofthe forum site.
 
 ![JForums Main Page](https://i.imgur.com/ASF1e7c.png)
 
+![Forums Rules Page](https://i.imgur.com/qYotEWt.png)
+
 ![Register Page](https://i.imgur.com/0JETaJK.png)
 
 ![Login page](https://i.imgur.com/SNFDpeL.png)
