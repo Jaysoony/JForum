@@ -9,7 +9,7 @@ This project uses:
 
 The images below are a preview ofthe forum site.
 
-![JForums Main Page](https://i.imgur.com/VxNpJy0.png)
+![JForums Main Page](https://i.imgur.com/ASF1e7c.png)
 
 ![Register Page](https://i.imgur.com/0JETaJK.png)
 
