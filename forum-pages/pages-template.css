@@ -6,6 +6,10 @@ body {
     background-color: rgb(43, 42, 42);
 }
 
+li {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: rgb(181, 34, 194);
@@ -23,8 +27,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: white;
+}
+
 p {
     margin: 5px 0;
+    color: white;
 }
 
 h3 {
@@ -62,7 +71,7 @@ h3 {
 /* Track */
 
  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: rgb(66, 66, 66);
     border-radius: 50px;
 }
 
@@ -70,7 +79,7 @@ h3 {
 /* Handle */
 
  ::-webkit-scrollbar-thumb {
-    background: rgb(77, 76, 76);
+    background: rgb(153, 10, 167);
     border-radius: 50px;
 }
 
