@@ -7,7 +7,7 @@ This project uses:
 
 ## JForum is in its development stage
 
-The images below are a preview ofthe forum site.
+The images below are a preview of the forum site.
 
 ![JForums Main Page](https://i.imgur.com/ASF1e7c.png)
 
