@@ -285,11 +285,17 @@ b {
 
 footer {
     color: white;
-    padding: 10px;
-    padding-top: 10px;
     text-align: center;
     background-color: #8b0697;
+    margin-top: auto;
+    position: absolute;
     display: block;
+    width: 100%;
+    left: 0%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .table-head {
