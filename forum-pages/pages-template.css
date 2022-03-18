@@ -8,7 +8,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(132, 12, 143);
+    color: rgb(181, 34, 194);
 }
 
 h1,
@@ -339,4 +339,12 @@ footer {
 
 .table-row .lastestactivity {
     flex: 15%;
+}
+
+.rulelist,
+h3 {
+    margin: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
