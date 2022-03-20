@@ -298,6 +298,9 @@ b {
     min-height: 100vh;
 }
 
+
+/* FOOTER */
+
 footer {
     color: white;
     text-align: center;
@@ -311,6 +314,32 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-contents {
+    width: 100%;
+    text-align: center;
+    display: block;
+    left: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 20p;
+    /*background-color: rgb(48, 49, 49); */
+}
+
+.footer-contents a {
+    color: #9913a5;
+}
+
+.footer-info-title {
+    color: rgb(107, 106, 106);
+    margin: 0%;
+    bottom: 20px;
+}
+
+.footer-info li {
+    display: inline;
 }
 
 .table-head {
