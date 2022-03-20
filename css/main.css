@@ -212,11 +212,19 @@ h3 {
 .search {
     border: solid 1px rgb(48, 49, 49);
     margin-top: 10px;
-    padding: 5px;
+    padding: 25px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    box-shadow: 1px 2px 3px #81038d;
+    top: 180;
+    /* box-shadow: 1px 2px 3px #81038d; */
+    border-radius: 10px;
+}
+
+.search .filterhead {
+    font-size: 20px;
+    position: absolute;
+    top: 164px;
 }
 
 h3 {
