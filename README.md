@@ -19,3 +19,5 @@ The images below are a preview of the forum site.
 ![Register Page](https://i.imgur.com/0JETaJK.png)
 
 ![Login page](https://i.imgur.com/SNFDpeL.png)
+
+![Admin Panel](https://i.imgur.com/AD0jaxV.png)
