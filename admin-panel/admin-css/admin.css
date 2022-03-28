@@ -173,7 +173,7 @@ aside .close {
     /* H2 */
     color: var(--color-white);
     text-align: center;
-    font-size: 30px;
+    font-size: 31px;
 }
 
 .board-text {
@@ -193,9 +193,8 @@ aside .sidebar {
     display: flex;
     flex-direction: column;
     height: 86vh;
-    width: 24vh;
+    width: 23vh;
     position: relative;
-    top: 3rem;
 }
 
 aside h3 {
@@ -256,4 +255,25 @@ aside .sidebar .message-count {
     padding: 2px 5px;
     font-size: 15px;
     border-radius: var(--border-radius-1);
+}
+
+
+/* ================= MAIN ================= */
+
+
+/* .panel-title {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+*/
+
+main {
+    margin-top: 1.4rem;
+    margin-left: 5rem;
+}
+
+main .insights>div {
+    background: var(--color-white);
 }
