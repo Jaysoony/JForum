@@ -1,6 +1,6 @@
 # JForum - Communication & Resources
 
-A lightweight, easy accessible Forum website for communication and getting, posting & editing resources.
+A lightweight, easy accessible Forum website for communication and getting, posting & editing resources. Includes features for forum moderators and admins.
 
 This is NOT the final design version of the Forum.
 
