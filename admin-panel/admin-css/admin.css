@@ -297,6 +297,9 @@ main .panel-title span {
     color: var(--color-primary);
 }
 
+
+/* ================= INSIGHTS CARD STYLING ================= */
+
 main .insights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
