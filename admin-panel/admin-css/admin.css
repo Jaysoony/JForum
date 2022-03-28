@@ -81,6 +81,25 @@ img {
 }
 
 
+/* ================= FOOTER STYLING ================= */
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #8b0697;
+    margin-top: auto;
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0%;
+    bottom: 1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* ================= TEXT STYLING ================= */
 
 h1 {
