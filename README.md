@@ -6,6 +6,7 @@ This is NOT the final design version of the Forum.
 
 This project uses:
 - [ParticlesJS](https://github.com/VincentGarreau/particles.js/)
+- [Google Material Icons](https://fonts.google.com/icons)
 
 ## JForum is in its development stage
 
